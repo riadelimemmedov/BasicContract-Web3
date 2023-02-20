@@ -21,7 +21,7 @@ const input = {
     },
 };
 
-console.log('Full Conf Contarct... ', JSON.parse(solc.compile(JSON.stringify(input))).contracts)
+console.log('Full Conf Contaract ', JSON.parse(solc.compile(JSON.stringify(input))).contracts)
 
 module.exports = JSON.parse(solc.compile(JSON.stringify(input))).contracts[
     'Inbox.sol'
